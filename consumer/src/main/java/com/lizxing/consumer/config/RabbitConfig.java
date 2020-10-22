@@ -121,4 +121,5 @@ public class RabbitConfig {
     Binding bindingExchange5(Queue directQueue2, DirectExchange directExchange) {
         return BindingBuilder.bind(directQueue2).to(directExchange).with("bbb");
     }
+
 }
